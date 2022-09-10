@@ -1,14 +1,17 @@
-import reactLogo from './assets/react.svg'
-import Login from './pages/Login'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Todo from "./pages/Todo";
+import "./App.css";
 
 function App() {
-
   return (
-   <div>
-    <Login/>
-   </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/todo" element={<Todo/>} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
