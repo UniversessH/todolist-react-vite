@@ -6,6 +6,7 @@ specifiers:
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.1.0
   axios: ^0.27.2
+  date-fns: ^2.29.2
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: '6'
@@ -16,6 +17,7 @@ specifiers:
 dependencies:
   '@douyinfe/semi-ui': registry.npmmirror.com/@douyinfe/semi-ui/2.18.2_biqbaboplfbrettd7655fr4n2y
   axios: registry.npmmirror.com/axios/0.27.2
+  date-fns: registry.npmmirror.com/date-fns/2.29.2
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
   react-router-dom: registry.npmmirror.com/react-router-dom/6.3.0_biqbaboplfbrettd7655fr4n2y
